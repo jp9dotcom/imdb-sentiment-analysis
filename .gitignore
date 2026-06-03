@@ -1,0 +1,20 @@
+# Ignore virtual environments
+venv/
+env/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files (since your dataset is already on Kaggle)
+data/*.csv
+data/*.npy
+dataset.csv
+IMDB Dataset.csv
+
+# Ignore saved models (too large for GitHub's 100MB limit)
+models/*.pkl
